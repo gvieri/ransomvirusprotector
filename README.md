@@ -1,4 +1,4 @@
-# ransonvirusprotector
+# RansomVirusProtector
 
 ## firewall script creator based on countries's internet block net addresses
 
