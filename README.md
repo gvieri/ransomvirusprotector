@@ -20,11 +20,12 @@ The license ? AGPL. Look at it.
 * python 3 
 
 ### Examples
-Obtain the:
-net blocks related to France:  python ransomvirusprotector.py -c FR
-net blocks related to Italy and France: python ransomvirusprotector.py -c FR,IT
-Do you want know the command to block:
-All russian IP addresses: python ransomvirusprotector.py -c RU -p "iptables -I INPUT -s " -P " -j REJECT"
+1. Obtain the:
+* net blocks related to France:  python ransomvirusprotector.py -c FR
+* net blocks related to Italy and France: python ransomvirusprotector.py -c FR,IT
+
+2. Do you want know the command to block:
+* All russian IP addresses: python ransomvirusprotector.py -c RU -p "iptables -I INPUT -s " -P " -j REJECT"
 
 Create the file h.txt with the following raw:
 iptables flush
