@@ -39,7 +39,8 @@ You will obtain a simple script that blocks all the connection coming from Germa
 ### Installing
 
 You need python 3 and you need to install request. If you use conda, you can give the command: conda install -c anaconda requests. If you prefer pip: pip install requests. 
-If yyou like to have a separate enviroment for this tool: conda create -n ransomprotector python=3.9 requests -y. 
+
+If you like to have a separate enviroment for this tool: conda create -n ransomprotector python=3.9 requests -y. 
 
 To install the script you can download the script alone or, you can clone the whole repository. 
 
