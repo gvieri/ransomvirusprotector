@@ -1,17 +1,17 @@
 # RansomVirusProtector
 
-## firewall script creator based on countries's internet block net addresses
+## firewall script creator based on countries' internet block net addresses
 
 ### Introduction 
-We live in tragic times where war is returning in Europe. After that we had death and destructions in AF, YU, SY a lot of African places and in Asia. 
-Now we have to face cyberwar and rogue cyber attack. I can't do anything to stop a cyber war but I really hope this script will become usefull to sme's owner and healthcare organizations. 
-In brief: malware needs to "phone home" for both ativation and to esfiltrate stolen data. It will phone home to get the 'key' to encrypt all your data before ask for ransom. 
+We live in tragic times where war is returning in Europe. After that we had death and destruction in AF, YU, SY and, a lot of both African/Asian places. 
+Now we have to face cyberwar and rogue cyber attacks. I can't do anything to stop a cyber war but I really hope this script will become useful to SME owners and healthcare organizations. 
+In brief: malware needs to "phone home" for both activation and to exfiltrate stolen data. It will phone home to get the 'key' to encrypt all your data before asking for ransom. 
 
-What if it can't "phone home" ? nothing... It will wait and will try to communicate with its owner by using other means. But a firewall correctly configured can buy you some time to fix the thing. 
+What if it can't "phone home"? nothing... It will wait and try to communicate with its owner by using other means. But a firewall correctly configured can buy you some time to fix the thing. 
 
-So I have written and published this script that I use as a sort of "swiss knife" to block suspect ip coming from a given country or, a set of countries... 
+So I have written and published this script that I use as a sort of "swiss knife" to block suspect ip coming from a given country or a set of countries 
 
-I'm using on linux but it can be used on windows too. You can try on wsl (linux on windows) and maybe from powershell. 
+I'm using on Linux but it can be used on windows too. You can try on WSL (Linux on Windows) and maybe from PowerShell. 
 
 The license ? AGPL. Look at it. 
 
@@ -27,10 +27,10 @@ The license ? AGPL. Look at it.
 * net blocks related to France:  python ransomvirusprotector.py -c FR
 * net blocks related to Italy and France: python ransomvirusprotector.py -c FR,IT
 
-2. Do you want know the command to block:
+2. Do you want to know the command to block:
 * All russian IP addresses: python ransomvirusprotector.py -c RU -p "iptables -I INPUT -s " -P " -j REJECT"
 
-Create the file h.txt with the following raw:
+Create the file h.txt with the following content:
 iptables flush
 
 Then:
